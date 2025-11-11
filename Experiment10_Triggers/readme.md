@@ -19,7 +19,7 @@ A **trigger** is a stored PL/SQL block that is automatically executed or fired w
 
 **Basic Syntax:**
 ```
-CREATE OR REPLACE TRIGGER trigger_name
+CREATE OR REPLACE TRIGGER trigger_name 
 BEFORE|AFTER INSERT|UPDATE|DELETE ON table_name
 [FOR EACH ROW]
 BEGIN
@@ -229,5 +229,6 @@ INSERT INTO employees VALUES (203, 'GoodPay', 'Trainee', 3500, 20)
 
 ## RESULT
 Thus, the PL/SQL trigger programs were written and executed successfully.
+
 
 
